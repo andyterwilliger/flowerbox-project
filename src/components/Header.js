@@ -1,10 +1,7 @@
 function Header (){
     return(
         <header>
-        <h1>
-            flowerbox
-        </h1>
-        <h2>for all your floral needs</h2>
+     <img src="https://i.imgur.com/U8tiT5X.png" alt=""/>
         </header>
     )
 }

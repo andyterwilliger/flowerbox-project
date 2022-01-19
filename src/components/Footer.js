@@ -1,7 +1,7 @@
 function Footer (){
     return(
         <footer>
-            <p>
+            <p id = "footer-img">
                 <img src="https://i.imgur.com/KxfWH9J.png" alt=""/>
             </p>
             

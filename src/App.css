@@ -1,3 +1,58 @@
-.App{
-    background-color: whitesmoke;
+.App {
+  background-color: whitesmoke;
+}
+
+.Nav {
+  background-color: #92b2ba;
+}
+
+.Nav>ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+
+}
+
+.Nav>ul>li {
+  color: white;
+}
+
+.Header>header>img {
+  width: 800px;
+
+}
+
+.Ul>ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+
+
+.Ul > ul > li > img{
+  width: 100px;
+  
+}
+
+.Footer {
+  background-color: #eeeeee;
+}
+
+ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 2fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+
+
+
+
+.Footer>footer>p>img {
+  width: 50px;
 }
